@@ -15,7 +15,7 @@ form.addEventListener('submit', function(e){
     }
 });
 
-function writetask(t){
+function writetask(){
     list.innerHTML='';
     tasks.forEach((t, index) => {
            
